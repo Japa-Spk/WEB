@@ -1,0 +1,84 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Taller Formulario</title>
+</head>
+
+<body id="main_body">
+
+	<img id="top" src="top.png" alt="">
+	<div id="contenedorformulario">
+
+		<h1><a>Formulario Taller</a></h1>
+		<form id="formularioTaller" class="form" method="post" action="">
+			<ul>
+
+				<li id="li_1">
+					<label class="description">Nombre </label>
+					<div>
+						<input type="text" maxlength="255" value="" />
+					</div>
+				</li>
+				<li id="li_2">
+					<label class="description">Apellido</label>
+					<div>
+						<input class="element text medium" type="text" maxlength="255" value="" />
+					</div>
+				</li>
+				<li id="li_3">
+					<label class="description" for="element_3">Direccion </label>
+					<div>
+						<input class="element text medium" type="text" maxlength="255" value="" />
+					</div>
+				</li>
+				<li id="li_4">
+					<label class="description">Fecha de nacimiento </label>
+					<span>
+						<input class="element text" size="2" maxlength="2" value="" type="text"> /
+						<label for="element_4_1">MM</label>
+					</span>
+					<span>
+						<input size="2" maxlength="2" value="" type="text"> /
+						<label for="element_4_2">DD</label>
+					</span>
+					<span>
+						<input class="element text" size="4" maxlength="4" value="" type="text">
+						<label>YYYY</label>
+					</span>
+
+
+				</li>
+				<li id="li_5">
+					<label class="description">Email </label>
+					<div>
+						<input type="text" value="" />
+					</div>
+				</li>
+				<li id="li_6">
+					<label class="description">Contraseña </label>
+					<div>
+						<input type="password" maxlength="255" value="" />
+					</div>
+				</li>
+				<li id="li_7">
+					<label class="description">Confirmar Contraseña </label>
+					<div>
+						<input id="element_7" type="password" maxlength="255" value="" />
+					</div>
+				</li>
+
+				<li class="buttons">
+					<input type="hidden" name="form_id" value="17367" />
+
+					<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+				</li>
+			</ul>
+		</form>
+
+	</div>
+</body>
+
+</html>
