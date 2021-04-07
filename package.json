@@ -1,0 +1,25 @@
+{
+  "name": "asincronico",
+  "version": "1.0.0",
+  "description": "practica de asincronismo dentro de carpeta WEB de primer corte",
+  "main": "src/callback/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback":"node src/callback/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Japa-Spk/WEB.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Jose Pinto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Japa-Spk/WEB/issues"
+  },
+  "homepage": "https://github.com/Japa-Spk/WEB#readme"
+}
