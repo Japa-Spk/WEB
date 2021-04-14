@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "callback": "node src/callback/index.js",
-    "asincrono": "node src/callback/asincrono.js"
-
+    "asincrono": "node src/callback/asincrono.js",
+    "covid": "node src/callback/covid.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Japa-Spk/WEB#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "xmlhttprequest": "^1.8.0"
   }
 }

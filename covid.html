@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 Colombia</title>
+</head>
+
+<body>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./src/callback/covid.js"></script>
+    <div id="plotlyChart"></div>
+    <script>
+        async function demo() {
+            console.log('Taking a break...');
+            await sleep(4000);
+            var data = [
+                {
+                    x: this.fechas,
+                    y: this.contagiados,
+                    type: 'bar'
+                }
+            ];
+
+            Plotly.newPlot('plotlyChart', data);
+
+        }
+        demo();
+
+    </script>
+</body>
+
+</html>
